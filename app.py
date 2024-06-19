@@ -3,7 +3,7 @@ import os
 import streamlit as st
 
 st.title('Gernative Ai Using Gemna AI')
-os.environ['API_KEY'] = 'AIzaSyDiWUOC6feuoOpT0NTmShelkREMcjptMNw'
+os.environ['API_KEY'] = 'Your Api Key'
 
 genai.configure(api_key=os.environ['API_KEY'])
 model = genai.GenerativeModel('gemini-1.5-flash')
